@@ -12,10 +12,10 @@ The inspiration behind this work is to understand the implementation of Convolut
 
 ### Results 
 
-VGG3 (Dropout (0.2,0.3,0.4,0.5) + Augmentation + BatchNormalization) ---> Test Accruracy = 56.49% , Test Loss = 2.33
+VGG3 (Dropout (0.2,0.3,0.4,0.5) + Augmentation + BatchNormalization) ---> Test Accruracy = 56.49% , Test Loss = 1.44 
 <img width="585" alt="Screenshot 2021-05-04 at 13 47 01" src="https://user-images.githubusercontent.com/38030229/117047800-4712d380-ace0-11eb-8499-f51c17f72567.png">
 
-VGG16 (Transfer Learning) ---> Test Accuracy = 58.03%, Test Loss = 1.44 
+VGG16 (Transfer Learning) ---> Test Accuracy = 58.03%, Test Loss = 2.33
 <img width="585" alt="qe" src="https://user-images.githubusercontent.com/38030229/117047796-45e1a680-ace0-11eb-9571-691b60e25c69.png">
 
 ### Data Availability 
