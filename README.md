@@ -12,11 +12,10 @@ The inspiration behind this work is to understand the implementation of Convolut
 
 ### Results 
 
-VGG3 (baseline) ---> Test Accruracy = 56.49% ,
-VGG3 (baseline) ---> Test Loss = 2.33 ,
-VGG16 (transfer learning) ---> Test Accuracy = 58.03% ,
-VGG16 (transfer learning) ---> Test Loss = 1.44 
+VGG3 (Dropout (0.2,0.3,0.4,0.5) + Augmentation + BatchNormalization) ---> Test Accruracy = 56.49% , Test Loss = 2.33
 
+VGG16 (Transfer Learning) ---> Test Accuracy = 58.03%, Test Loss = 1.44 
+![Figure_1](https://user-images.githubusercontent.com/38030229/117046339-9526d780-acde-11eb-94fe-a4241d8b5984.png)
 
 ### Data Availability 
 The FER-2013 Dataset used in this paper is publicly available and downloadable from the following link: https://www.kaggle.com/msambare/fer2013
